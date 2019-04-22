@@ -12,3 +12,5 @@ include: package:pedantic/analysis_options.yaml
 analyzer:
 #   exclude:
 #     - path/to/excluded/files/**
+  errors:
+    uri_has_not_been_generated: ignore
